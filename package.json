@@ -1,0 +1,14 @@
+{
+  "name": "Test",
+  "description": "A simple test",
+  "version": "0.0.1",
+  "private": true,
+  "main": "test_server.js",
+  "scripts": {
+    "start": "node test_server.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
