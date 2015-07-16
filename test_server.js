@@ -26,7 +26,7 @@ server.listen(port)
 console.log("Server running at http://127.0.0.1:"+port)
 
 function sum(a, b) {
-	return a + b + 1
+	return a + b
 }
 
 module.exports = { sum:sum }
